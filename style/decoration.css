@@ -1,7 +1,11 @@
+/* common syles */
 body{
     font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
+}
+.align-center{
+    text-align: center;
 }
 .hcolor{
     color: #272727;
@@ -14,6 +18,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px; 
 }
+/* header styles */
 header 
 {
     display: flex;
@@ -50,4 +55,83 @@ margin-top: 32px;
     width: 635px;
 height: 800px;
 margin-right: 240px;
+}
+/* main section styles */
+.section1-header{
+    font-size: 40px;
+    margin-top: 178px ;
+font-weight: 800;
+}
+#section-images{
+    display: flex;
+   justify-content: center;
+    margin: 48px 240px 32px
+}
+.img-bonus{
+    background-color: rgba(167, 33, 98, 0.15);
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    width: 464px;
+    height: 538px;  
+}
+.img-flower{
+    width: 310px;
+height: 428px;
+padding: 110px 78px 0px 76px;
+}
+.flower-link{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 381px  128px;
+    font-weight: 700;
+}
+/* section 2 */
+.section2{
+    display: flex;
+    justify-content: center;
+}
+.imgmini{
+    margin-right: 24px;
+    margin-bottom: 128px;
+}
+/* section 3 */
+.section3{
+    background-image: url(../Flowers/Rectangle\ 9.png);
+    width: 1440px;
+height: 449px;
+display: grid;
+justify-content: center;
+align-items: center;
+margin: 0 240px 0 ;
+margin-bottom: 128px;
+}
+#sec3head{
+    font-family: Lato;
+    text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+padding-top: 90px;
+margin-bottom: 16px;
+}
+#sec3des{
+    text-align: center;
+}
+.main-form{
+    margin-bottom: 121px;
+}
+.form{
+    width: 700px;
+height: 64px;
+width: 700px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+color: rgba(39, 39, 39, 0.60);
+
+font-size: 16px;
+font-weight: 400;
+border: 0;
+margin-right: 16px;
 }
